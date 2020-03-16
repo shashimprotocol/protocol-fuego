@@ -26,20 +26,18 @@ date_default_timezone_set('America/New_York');
  **/
 define(__NAMESPACE__ . '\AUTHORITIES', serialize(
 	array(
-		'someHandle1',
-		'someHandle2',
-		'someHandle3',
-		'someHandle4',
-		'someHandle5',
-		'someHandle6',
-		'someHandle7',
-		'someHandle8',
-		'someHandle9',
+		'pierce',
+		'techmeme',
+		'techcrunch',
+		'campuscodi',
+		'ingridlunden',
+		'joshconstine',
+		'kyle_l_wiggers',
 	)
 ));
 
 /** Your email address, for error reporting. Separate multiple addresses with commas. */
-const WEBMASTER = 'xxxx@harvard.edu';
+const WEBMASTER = 'shashim@protocol.com';
 
 /** For how many days should links remain in the database? Default: 1. Must be an integer. */
 const EXPIRATION_DAYS = 1;
@@ -47,10 +45,10 @@ const EXPIRATION_DAYS = 1;
 /** Your database credentials.
   * Only MySQL is supported, hipsters. */
 const
-	DB_NAME = 'xxxxx', 
-	DB_USER = 'xxxxx',
-	DB_PASS = 'xxxxx',
-	DB_HOST = 'localhost',  // default: localhost
+	DB_NAME = 'heroku_c358dff0ee6a478', 
+	DB_USER = 'bb7c3afb314323',
+	DB_PASS = 'b3734406',
+	DB_HOST = 'b3734406@us-cdbr-iron-east-04.cleardb.net',  // default: localhost
 	DB_PORT = 3306;  // default: 3306
 
 /** Your Twitter credentials. If you don't have any yet, visit https://dev.twitter.com and sign in.
@@ -58,11 +56,11 @@ const
   * Then generate new access tokens. Don't share the secrets with anyone.
 **/
 const
-	TWITTER_SCREEN_NAME = 'xxxx',
-	TWITTER_CONSUMER_KEY = 'xxxx',
-	TWITTER_CONSUMER_SECRET = 'xxxx',
-	TWITTER_OAUTH_TOKEN = 'xxxx-xxxx',
-	TWITTER_OAUTH_SECRET = 'xxxx';
+	TWITTER_SCREEN_NAME = 'protocol fuego',
+	TWITTER_CONSUMER_KEY = '5QbkTprJ6UkBTqjw0lHhbZcWS',
+	TWITTER_CONSUMER_SECRET = 'Bt38kLzKkx3pyhZQBHfBn9JDJMTLYfk4HoJQRQXLsgDoPToHUO',
+	TWITTER_OAUTH_TOKEN = '79571866-CnDEuXRc0H0eIAZretCHpH7BEvIOoW42bZLiVDqFu',
+	TWITTER_OAUTH_SECRET = 'MnkLRmD6behDXlxWfSWSH83Iw2mKGlel7Gf8jsd1ui2Aa';
 
 /** Your Bitly credentials. Visit this page to grab them: http://bitly.com/a/your_api_key 
   * Optional, recommended. Leave blank to disable.
